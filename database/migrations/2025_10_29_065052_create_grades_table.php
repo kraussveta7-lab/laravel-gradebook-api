@@ -19,7 +19,7 @@ return new class extends Migration
             $table->date('exam_date')->nullable();
             $table->timestamps();
 
-            $table->unique(['student_id','subject_id']);
+           
         });
     }
 
